@@ -10,7 +10,7 @@ print("module load and infoload complete")
 #htpy logo
 import htpylogo
 #dns logo - aaag generator blocks font
-print("_____  _   _  _____ ")
+print(" _____  _   _  _____ ")
 print("|  __ \| \ | |/ ____|")
 print("| |  | |  \| | (___  ")
 print("| |  | | . ` |\___ \ ")
@@ -19,3 +19,5 @@ print("|_____/|_| \_|_____/ ")
 
 print("HTPY DNS Tool")
 import platprop
+print("Running on " + platprop.architecture + ("bit ") + platprop.baseos + ("     Version ") + platprop.osrelease)
+print("LAN Hostname: " + platprop.netname + "")
