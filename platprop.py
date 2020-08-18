@@ -8,4 +8,4 @@ osrelease = platform.release
 osversion = platform.version
 architecture = platform.machine
 #testprint
-print(platform)
+#print(platform)
